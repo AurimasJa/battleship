@@ -3,6 +3,7 @@
     public class Healer : Ship
     {
         public int Id { get; set; }
-        //public Ship Ship { get; set; }
+
+        public int HealBonus { get; set; }
     }
 }

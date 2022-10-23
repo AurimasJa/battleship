@@ -3,6 +3,6 @@
     public class Submarine : Ship
     {
         public int Id { get; set; }
-        //public Ship Ship { get; set; }
+        public int HiddenDuration { get; set; }
     }
 }

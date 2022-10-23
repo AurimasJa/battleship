@@ -11,7 +11,6 @@ namespace battleship.Models
         public DateTime CreationDate { get; set; }
         public double Elo { get; set; }
         public int Points { get; set; }
-        public UserShip UserShip { get; set; }
 
     }
 }

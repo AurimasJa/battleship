@@ -5,7 +5,6 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public int Length { get; set; }
-        public UserShip UserShip { get; set; }
         public Missile Missile { get; set; }
     }
 }

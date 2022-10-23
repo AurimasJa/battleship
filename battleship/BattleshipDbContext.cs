@@ -6,7 +6,6 @@ namespace battleship
 {
     public class BattleshipDbContext : DbContext
     {
-        public DbSet<Basic> Basics { get; set; }
         public DbSet<GameMatch> GameMatches { get; set; }
         public DbSet<Healer> Healers { get; set; }
         public DbSet<LeaderboardHistory> LeaderboardHistories { get; set; }

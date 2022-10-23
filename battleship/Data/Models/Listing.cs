@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace battleship.Models
 {
     public class Listing
@@ -9,6 +11,6 @@ namespace battleship.Models
         public double? EloTo { get; set; }
         public DateTime CreationDate { get; set; }
         public User PlayerOne { get; set; }
-        public User PlayerTwo { get; set; }
+        public User? PlayerTwo { get; set; }
     }
 }
